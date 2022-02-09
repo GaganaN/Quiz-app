@@ -1,0 +1,46 @@
+.h1 {
+    color: rgb(16, 20, 20);
+  }
+
+  form {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .contain {
+    padding: 20px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .redans {
+    background-color: red;
+    color: wheat;
+    display: flex;
+    /*border-radius: 100%;*/
+    padding: 20px 20px;
+  }
+
+  .grayans {
+    background-color: grey;
+    color: wheat;
+    display: flex;
+    /*border-radius: 100%;*/
+    padding: 20px 20px;
+  }
+
+  .qstn {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .content {
+    min-width: 500px;
+    min-height: 200px;
+    margin-top: 50px;
+  }
+  
